@@ -186,7 +186,7 @@ The knowledge gained from this exercise will support further learning in ethical
 
 ## 👨‍💻 Author
 
-**Aritra Pal**
+Aritra pal
 
 Cyber Security Enthusiast | B.Tech – Computer Science & Engineering
 
