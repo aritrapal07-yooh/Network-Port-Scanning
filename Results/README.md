@@ -1,45 +1,32 @@
-# Cyber Security Internship – Task 1
+# Nmap 7.99 scan initiated Thu Nov  5 17:27:45 2026 as: /usr/lib/nmap/nmap -sT --top-ports 100 -oN scan_results.txt 192.168.10.0/24
+Nmap scan report for 192.168.10.1
+Host is up (0.0052s latency).
+Not shown: 95 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+135/tcp   open   msrpc
+139/tcp   open   netbios-ssn
+445/tcp   open   microsoft-ds
+8080/tcp  closed http-proxy
+49152/tcp closed unknown
+MAC Address: 00:50:56:C0:00:08 (VMware)
 
-## Scan Your Local Network for Open Ports
+Nmap scan report for 192.168.10.2
+Host is up (0.0012s latency).
+Not shown: 99 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 00:50:56:E1:D3:FA (VMware)
 
-### Objective
-To learn network reconnaissance and identify open ports on authorized devices using Nmap.
+Nmap scan report for 192.168.10.254
+Host is up (0.00040s latency).
+All 100 scanned ports on 192.168.10.254 are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 00:50:56:FD:2A:5E (VMware)
 
-### Tools Used
-- Nmap
-- Wireshark (Optional)
-- Kali Linux
+Nmap scan report for 192.168.10.129
+Host is up (0.00065s latency).
+All 100 scanned ports on 192.168.10.129 are in ignored states.
+Not shown: 100 closed tcp ports (conn-refused)
 
-### Tasks Performed
-1. Installed Nmap.
-2. Identified the local IP address.
-3. Performed network host discovery on an authorized network.
-4. Conducted TCP port scanning.
-5. Identified open, closed and filtered ports.
-6. Studied common network services.
-7. Saved scan results in different formats.
+# Nmap done at Thu Nov  5 17:27:50 2026 -- 256 IP addresses (4 hosts up) scanned in 4.92 seconds
 
-### Nmap Output Files
-
-| File | Description |
-|---|---|
-| network_scan.nmap | Normal scan output |
-| network_scan.xml | XML scan output |
-| network_scan.gnmap | Grepable scan output |
-
-### Results
-The scan results and practical screenshots are available in the Results and Screenshots folders.
-
-### Learning Outcomes
-- Understanding TCP ports.
-- Learning Nmap commands.
-- Understanding network reconnaissance.
-- Identifying network services.
-- Learning basic network security concepts.
-
-### Conclusion
-This practical helped me understand the fundamentals of network port scanning and network reconnaissance using Nmap.
-
-**Internship Task:** Task 1 – Cyber Security Internship
-
-**Note:** All scanning was performed only on authorized devices and networks.
